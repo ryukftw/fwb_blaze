@@ -6552,16 +6552,6 @@ public abstract class Context {
     public static final String APP_LOCK_SERVICE = "app_lock";
 
     /**
-     * Use with {@link #getSystemService} to retrieve a
-     * {@link com.oplus.os.LinearmotorVibrator} for accessing linear motor vibrator state.
-     *
-     * @hide
-     * @see #getSystemService
-     * @see com.oplus.os.LinearmotorVibrator
-     */
-    public static final String LINEARMOTOR_VIBRATOR_SERVICE = "linearmotor";
-
-    /**
      * Use with {@link #getSystemService(String)} to retrieve an
      * {@link android.app.ecm.EnhancedConfirmationManager}.
      *
